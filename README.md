@@ -28,8 +28,8 @@ This seemed like an easy fix, however for any polygon with a vertex count > 3, t
 
 I am not able to use the Newton-Raphson method just yet, as it only finds zeroes, and I'm not trying to find where a constant is equal to zero. Since the geometric median is at a critical point in all directions, I would be able to use the Newton-Raphson method to find where the derivative was equal to zero. This means that instead of the instruction being `x := x - f(x, y)/(df/dx)`, I would need to differentiate both `f(x, y)`, and `df/dx`, making the instruction `x := x - df*d^2f/dx^3` instead. Another couple of rounds of derivation later with the function `f(x, y) = sum(sqrt((x-c_x)^2 sqrt(y-c_y)^2)`, I got:
 
-![lagrida_latex_editor (6)](https://user-images.githubusercontent.com/42986319/162328558-832ded7a-73a7-4677-8f01-ce3b20ad2a51.png)
-
 ![lagrida_latex_editor (7)](https://user-images.githubusercontent.com/42986319/162328563-2104af79-79a9-4ec2-8f4f-adfd8c1480dd.png)
+
+![lagrida_latex_editor (8)](https://user-images.githubusercontent.com/42986319/162328744-81182370-42cf-433b-8bdc-fc04d40b649a.png)
 
 A concern I had here is that converging towards a minimum does not necessarily imply a global minimum, however in further research I learned that there was only one critical point.
