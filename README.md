@@ -14,4 +14,9 @@ The error function I decided upon was `(foci distances - polyellipse's constant)
 
 After fully writing that down onto my notebook, I noticed the amount of effort that would have to go into differentiating this. Fortunately however, I had a study hall in 5th period, so I could afford to take my time. After 2 entire notebook pages, I came up with this:
 
-![lagrida_latex_editor (2)](https://user-images.githubusercontent.com/42986319/162105959-d898b61d-304c-48e0-b08e-5f18b2a0a556.png)
+![image](https://user-images.githubusercontent.com/42986319/162106203-bc6130cd-60e8-4f93-b4b8-17cbba16052c.png)
+
+Hell of an equation.
+
+After a bit of meandering through equations I had the tools necessary to create this polyellipse. I wrote up some code to draw out the ellipse onto a browser canvas, and it all looked good. Added a couple of sliders to change the constant as well as the number of foci, and realized I had found a bit of an issue.
+
