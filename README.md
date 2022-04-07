@@ -30,6 +30,6 @@ I am not able to use the Newton-Raphson method just yet, as it only finds zeroes
 
 ![lagrida_latex_editor (7)](https://user-images.githubusercontent.com/42986319/162328563-2104af79-79a9-4ec2-8f4f-adfd8c1480dd.png)
 
-![lagrida_latex_editor (8)](https://user-images.githubusercontent.com/42986319/162328744-81182370-42cf-433b-8bdc-fc04d40b649a.png)
+![lagrida_latex_editor (9)](https://user-images.githubusercontent.com/42986319/162328828-0c9aab80-17a5-4d2c-b77e-a2b4203cb870.png)
 
 A concern I had here is that converging towards a minimum does not necessarily imply a global minimum, however in further research I learned that there was only one critical point.
