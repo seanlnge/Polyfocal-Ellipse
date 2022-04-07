@@ -20,3 +20,8 @@ Hell of an equation.
 
 After a bit of meandering through equations I had the tools necessary to create this polyellipse. I wrote up some code to draw out the ellipse onto a browser canvas, and it all looked good. Added a couple of sliders to change the constant as well as the number of foci, and realized I had found a bit of an issue.
 
+![image](https://user-images.githubusercontent.com/42986319/162106881-47b52f09-586c-4429-8623-33531604af32.png)
+
+What is happening here is that sometimes the most optimal distance in a certain direction is negative, which I never accounted for. I learnt that the center of the polyellipse isn't in the average of the points as I had thought, but the Fermat-Torricelli point in the convex polygon made by the foci. The Fermat-Torricelli point is the point inside of a polygon where the sum of the distances to each vertex is at it's minimum, which goes hand in hand with the definition of a polyellipse. In fact, the sum of the distances to each vertex from the Fermat-Torricelli point is the minimum possible constant that a polyellipse can have.
+
+This seemed like an easy fix, however for any polygon with a vertex count > 3, there is no way to calculate that point exactly. No problem, I'll just approximate it. Unfortunately however, there is no trivial way of doing this. To find the Fermat-Torricelli point, I would need to approximate a point in `R^2`, which means that I had to deal with optimizing two variables at once. Although I am not very accustomed in multi-variable calculus, I am fortunate enough to have engulfed myself in machine-learning techniques 7 months prior.
