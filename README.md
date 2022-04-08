@@ -1,4 +1,4 @@
-# Polyfocal Ellipse
+# [Polyfocal Ellipse](https://htmlpreview.github.io/?https://github.com/seanlnge/polyfocal-ellipse/blob/main/index.html)
 ***
 Precalculus class has recently introduced me to the wonders of conic sections, specifically the ellipse. An ellipse is practically an elongated circle, however with some extra special properties, most of which involve the two foci dropped into the middle. The foci are hugely important for one reason, the fact that [for any point on the perimeter of the ellipse, the sums of the distances between that point and the foci are constant](https://en.wikipedia.org/wiki/Ellipse#Definition_as_locus_of_points). After exploring the idea of having 2 focal points instead of a puny single one like in a circle, I got distracted by the mere thought of 3 focal points, or 4; in fact, what would a shape look like given it had `n` focal points. I decided to devote my afternoon to the topic, which intrigued me enough to turn it into two afternoons.
 
